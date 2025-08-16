@@ -12,7 +12,7 @@ function App() {
 
   return (
     <WatchListProvider>
-    <BrowserRouter>
+    
     <Navbar/>
      <Routes>
       <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
       
      </Routes>
      
-    </BrowserRouter>
+    
     </WatchListProvider>
   )
 }
